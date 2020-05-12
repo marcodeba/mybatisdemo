@@ -26,7 +26,7 @@ public class StudentServiceImplTest {
 
     @Test
     public void testSelectAll() {
-        List records = service.findAll();
+        List records = service.selectAll();
         Assert.assertEquals(6, records.size());
     }
 }

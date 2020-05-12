@@ -57,5 +57,5 @@ public interface StudentMapper {
      */
     int updateByPrimaryKey(Student record);
 
-    List<Student> findAll();
+    List<Student> selectAll();
 }

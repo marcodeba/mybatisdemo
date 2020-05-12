@@ -16,7 +16,7 @@ public class StudentService {
         return studentMapper.selectByPrimaryKey(studentId);
     }
 
-    public List<Student> findAll() {
-        return studentMapper.findAll();
+    public List<Student> selectAll() {
+        return studentMapper.selectAll();
     }
 }
